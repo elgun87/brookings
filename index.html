@@ -1,0 +1,350 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <!-- BUNU MUELIMMNEN SORUS INSPET EDENDE HTML-WDITH COX AZALIR -->
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./assets/css/fonts.min.css">
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link rel="stylesheet" href="./assets/css/about.css">
+      <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+   </head>
+   <body>
+       <div id="main-menu-search-bar-wrapper">
+            <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="input-group" id="navbar-search-input" style="height: 50px;">
+                    <div class="input-group-prepend text-white bg-dark">
+                        <a href="#" class="input-group-text text-white bg-dark" id="basic-addon1">
+                        <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                    <input type="text" class="form-control text-white bg-dark" style="height: 50px;" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <!-- Bu navbar ustdekidi -->
+                <nav class="navbar navbar-dark justify-content-end" id="hide" style="background-color: #fff !important;">
+                    <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">ABOUT US<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">PRESS ROOM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">EXPERTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">EVENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">THE BROOKING PRESS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">WASHU AT BROOKINGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">SUPPORTING BROOKINGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">CAREERS</a>
+                    </li>
+                    </ul>
+                    <button class="navbar-toggler bg-dark text-white" id="nav-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">SEARCH <i class="fas fa-search"></i>
+                    </button>
+                </nav>
+            </div>
+            <hr style="margin: 0 !important;">
+            <!-- Bu navbar alttakidi -->
+            <div class="navbar-main">
+                <nav id="" class="navbar main-nav navbar-expand-lg justify-content-md-between navbar-light bg-light">
+                    <!-- Burda responsib olanda flex rahat olunsun  deye divlere alinib search iconi ile burger -->
+                    <div class="flex-nav">
+                    <div class="navbar-brand-md">
+                        <a class="navbar-brand" href="#">
+                            <h2>BROOKINGS</h2>
+                        </a>
+                    </div>
+                    <div class="search-burger-contents">
+                        <button class="navbar-toggler bg-dark text-white hide-search" id="nav-toggler" type="button"
+                            data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                            aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                            aria-label="Toggle navigation"><i class="fas fa-search"></i>
+                        </button>
+                        <button class="navbar-toggler" id="burger-btn" type="button" data-toggle="collapse"
+                            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <div class="navbar-nav" id="main-nav-content">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">AI<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">POLICY 2020</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">CITIES & REGIONS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">GLOBAL DEV</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">INTL AFFAIRS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">U.S.ECONOMY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">U.S.POLITICS & GOVT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">MORE</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+      </div>
+      <!-- burger nav hisse -->
+      <div class="nav-right">
+          <div class="nav-right-inner">
+        <div class="section-right">
+            <h2 class="mt-2 ml-2">BROOKINGS</h2>
+            <button class="nv-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <!-- Accordion Using List Group -->
+        <div id="accordion">
+            <div class="panel list-group">
+                <!-- panel class must be in -->
+                <a href="#web_dev" data-parent="#accordion" data-toggle="collapse" class="list-group-item">
+                <h4>TRENDING</h4>
+                </a>
+                <div class="collapse" id="web_dev">
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                </div>
+                <a href="#desktop" data-parent="#accordion" data-toggle="collapse" class="list-group-item" `>
+                <h4>TOPICS</h4>
+                </a>
+                <div class="collapse" id="desktop">
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <main class="containe-fluid">
+        <div class="entry">
+            <h1 class="entry-title">About us</h1>
+        </div>
+        <div class="container">
+            <div class="container main">
+                <a class="language-select">عربي</a>
+                <strong>
+                    The Brookings Institution is a nonprofit public policy organization based in Washington, DC. Our mission is to conduct in-depth research that leads to new ideas for solving problems facing society at the local, national and global level.
+                </strong>
+                <img src="./image/brookings_exterior_cropped.jpg" class="img-fluid" alt="Responsive image">
+                <br><br><br>
+                <div style="display: flex;justify-content: center;">
+                    <h2 class="who-we-are">Who We Are</h2>
+                </div>
+            </div>
+        </div>
+
+        <hr style="margin-top: 0!important;margin-bottom: 36px; background: #A3C8EF">
+
+        <div class="container">
+            <div class="container main">
+                <div>
+                    <a href="#" class="who-links">Our Experts »</a>
+                    <p class="who-text">
+                        Brookings brings together more than 300 leading experts in government and academia from all over the world who provide the highest quality research, policy recommendations, and analysis on a full range of public policy issues.
+                    </p>
+                </div>
+                <div>
+                    <a href="#" class="who-links">Our Research Programs,Centers and Projects »</a>
+                    <p class="who-text">
+                        The research agenda and recommendations of Brookings’s experts are rooted in open-minded inquiry and our 300+ scholars represent diverse points of view. Research topics cover foreign policy, economics, development, governance and metropolitan policy.
+                    </p>
+                </div>
+                <div>
+                    <a href="#" class="who-links">Our Leadership »</a>
+                    <p class="who-text">
+                        Learn more about Brookings President John R. Allen, our Board of Trustees co-chairs Glenn Hutchins and Suzanne Nora Johnson, and our management staff.
+                    </p>
+                </div>
+                <div>
+                    <a href="#" class="who-links">
+                        Our Board of Trustees »
+                    </a>
+                    <p class="who-text">
+                        The Brookings Institution traces its beginnings to 1916, when a group of leading reformers founded the Institute for Government Research (IGR), the first private organization devoted to analyzing public policy issues at the national level.
+                    </p>
+                </div>
+                <div>
+                    <a href="#" class="who-links">
+                        Our History »
+                    </a>
+                    <p class="who-text">
+                        The Brookings Institution traces its beginnings to 1916, when a group of leading reformers founded the Institute for Government Research (IGR), the first private organization devoted to analyzing public policy issues at the national level.
+                    </p>
+                </div>
+                <div>
+                    <a href="#" class="who-links">
+                        What people are saying »
+                    </a>
+                    <p class="who-text">
+                        See what key figures in the policymaking sphere have to say about the impact of our experts and their research, locally, nationally and globally.
+                    </p>
+                </div>
+                <div style="display: flex;justify-content: center;">
+                    <h2 class="who-we-are">Who We Do</h2>
+                </div>
+            </div>
+        </div>
+
+        <hr style="margin-top: 0!important;margin-bottom: 36px; background: #A3C8EF">
+
+        <div class="container">
+            <div class="container main">
+                <div>
+                    <a href="#" class="who-links">Annual Reports »</a>
+                    <p class="who-text">
+                        Each year, Brookings produces an annual report highlighting our collective work and the impact it has had on the world. The annual report has, since 1983, also provided an opportunity for us to thank the generous donors whose financial support makes our work possible, while also demonstrating our commitment to transparency.
+                    </p>
+                </div>
+                <div>
+                    <a href="#" class="who-links">Introducing the David M. Rubenstein Fellowship Program »</a>
+                    <p class="who-text">
+                        Brookings is pleased to launch the David M. Rubenstein Fellowship Program. The challenges facing the United States and the world require rigorous, innovative, evidence-based research that generate fresh thinking and innovative policy solutions. Through this program, Brookings is seeking to increase diversity in our scholarly community by recruiting the next generation of rising stars and creative thinkers to help achieve our mission of improving governance in the United States and across the world.
+                    </p> 
+                </div>
+                <div>
+                    <a href="#" class="who-links">Introducing the David M. Rubenstein Fellowship Program »</a>
+                <p class="who-text">
+                    Brookings is pleased to launch the David M. Rubenstein Fellowship Program. The challenges facing the United States and the world require rigorous, innovative, evidence-based research that generate fresh thinking and innovative policy solutions. Through this program, Brookings is seeking to increase diversity in our scholarly community by recruiting the next generation of rising stars and creative thinkers to help achieve our mission of improving governance in the United States and across the world.
+                </p>
+                </div>
+                <div style="display: flex;justify-content: center;">
+                    <h2 class="who-we-are">What We Stand For</h2>
+                </div>
+            </div>
+        </div>
+
+        <hr style="margin-top: 0!important;margin-bottom: 36px; background: #A3C8EF">
+
+        <div class="container">
+            <div class="container main">
+                <div>
+                    <a href="#" class="who-links">INDEPENDENCE & INTEGRITY POLICIES »</a>
+                    <p class="who-text">
+                        The Brookings Institution is a nonprofit organization devoted to independent, in-depth research that leads to pragmatic and innovative ideas on how to solve problems facing society. Brookings’s commitment to institutional independence is rooted in the individual independence of its scholars. Therefore, the Institution does not take positions on issues.
+                    </p>
+                </div>
+                <div>
+                    <a href="#" class="who-links">Inclusion and Diversity »</a>
+                    <p class="who-text">
+                        Brookings recognizes that in order to produce high-quality research that informs innovative, practical policy recommendations, we need to ensure that our personnel represent a diversity of thought, experience and personal background. Such diversity within the workforce enhances the relevance and substance of our work, and also helps us adhere more closely to our guiding principles of quality, independence and impact.
+                    </p>
+                </div>
+                <div>
+                    <a href="#" class="who-links">Policy on Public Health Service Funded Research »</a>
+                    <p class="who-text">
+                    <em>The Policy and Procedures on Financial Conflict of Interest in Public Health Service Funded Research </em>
+                    provides&nbsp;guidelines and procedures for the identification and resolution of real, potential, or apparent financial conflicts of interest that may arise with respect to the Institution’s employees and affiliates in public health service-funded research.
+                    </p>
+                </div>
+                <div>
+                    <a href="#" class="who-links">Anti-Harasssment »</a>
+                    <p class="who-text">
+                        Consistent with the Brookings Institution’s commitment to providing an environment in which all individuals are treated with respect and dignity, the Institution prohibits discriminatory or harassing behavior, including sexual harassment, toward a person who is affiliated with Brookings or involved in activities related to the Institution. This applies to any behavior in the Brookings work environment, including occurring before, during, or after any Brookings-related activities, regardless of whether on Brookings’s premises or at another location (such as Brookings-sponsored events or travel).
+                    </p>
+                    <p class="who-text">
+                        Individuals may report suspected harassment in accordance with Brookings’s Reporting, Investigations, and Whistleblower policy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <hr class="hr-footer-up">
+
+    <footer>
+        <div class="footer-up">
+            <div class="logo-name">
+                <h3>BROOKINGS</h3>
+            </div>
+            <div class="social-links">
+                <a href="#" style="background: #6275AE;"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#" style="background: #33BCF4;"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" style="background: red;"><i class="fab fa-youtube fa-lg"></i></a>
+                <a href="#" style="background: #6275AE;"><i class="fa fa-envelope fa-lg"></i></a>
+                <a href="#" style="background: #A73399;"><i class="fas fa-podcast fa-lg"></i></a>
+                <a href="#" style="background: #FFA300;"><i class="fa fa-rss fa-lg"></i></a>
+            </div>
+            <div class="language">
+                <p>LANGUAGES</p>
+                <p>Espanol</p>
+                <p>English</p>
+            </div>
+        </div>
+    <hr class="hr-footer">
+    <section class="footer-links">
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Research Programs</a></li>
+            <li><a href="#">Find and Expert</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </section>
+    <section class="footer-legal">
+        <ul>
+            <li>
+                <a href="#">Terms and Conditions</a>
+            </li>
+            <li>
+                <a href="#">Brookings Privacy and Policy</a>
+            </li>
+            <li>
+                <a href="#">Copyright 2020 The Brookings Institution</a>
+            </li>
+        </ul>
+    </section>
+ </footer>
+      <script src="./assets/js/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+         crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+         crossorigin="anonymous"></script>
+      <script src="./assets/js/app.js"></script>
+   </body>
+</html>
+
